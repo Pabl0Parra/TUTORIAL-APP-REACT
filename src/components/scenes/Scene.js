@@ -1,5 +1,7 @@
+import Phrases from "../../phrases";
+
 const Scene = () => {
-  return "Our hero was floating in outer space when he spotted a spaceship in the distance";
+  return Phrases.map((item) => <p key={item}>{item}</p>);
 };
 
 export default Scene;
