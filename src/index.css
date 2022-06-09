@@ -22,3 +22,13 @@ code {
   justify-content: center;
   margin-bottom: 2rem;
 } */
+
+.btn {display: inline-block;
+margin-bottom: 4rem;
+width: 50%;
+height: 4rem;
+cursor: pointer;
+font-weight: 800;
+border-radius: 3px;
+padding: 12px 24px;}
+

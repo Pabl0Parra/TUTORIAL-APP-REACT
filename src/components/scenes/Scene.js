@@ -1,17 +1,14 @@
-import PhrasesList from "../PhrasesList";
-import Button from "../Button";
+import { Section } from "../../styled";
 
-
-const Scene = () => {
-  return (
-    <div>
-      <div>
-        <Button type="button">PREVIOUS</Button>
-        <Button type="button">NEXT</Button>
-      </div>
-      <section>{PhrasesList}</section>
-    </div>
-  );
-};
+const Scene = ({Phrases, state}) => 
+  Phrases.map((props, index) => {
+		return (
+			<Section key={index + "-Phrases"} className={index === state && "operative"}>
+				{props.text}
+			</Section>
+		);
+	});
+ 
 
 export default Scene;
+
