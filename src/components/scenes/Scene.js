@@ -1,7 +1,16 @@
-import Phrases from "../../phrases";
+import PhrasesList from "../PhrasesList";
+import Button from "../Button";
 
 const Scene = () => {
-  return Phrases.map((props) => <p className="paragraph"> {props.text}</p>);
+  return (
+    <div>
+      <div>
+        <Button type="button">PREVIOUS</Button>
+        <Button type="button">NEXT</Button>
+      </div>
+      <section>{PhrasesList}</section>
+    </div>
+  );
 };
 
 export default Scene;
