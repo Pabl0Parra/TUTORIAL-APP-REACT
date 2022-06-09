@@ -12,7 +12,7 @@ code {
     monospace;
 }
 
-.paragraph {
+/* .paragraph {
   border: 2px solid black;
   border-radius: 10rem;
   height: 2rem;
@@ -21,4 +21,4 @@ code {
   flex-direction: column;
   justify-content: center;
   margin-bottom: 2rem;
-}
+} */

@@ -1,6 +1,7 @@
 import PhrasesList from "../PhrasesList";
 import Button from "../Button";
 
+
 const Scene = () => {
   return (
     <div>

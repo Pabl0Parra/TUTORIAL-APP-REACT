@@ -1,7 +1,8 @@
 import Phrases from "../Phrases";
+import { Section } from "../styled";
 
 const PhrasesList = Phrases.map((props) => (
-  <p className="paragraph"> {props.text}</p>
+  <Section><p> {props.text}</p></Section>
 ));
 
 export default PhrasesList;
