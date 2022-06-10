@@ -1,6 +1,6 @@
 // import styled from "styled-components";
 
-// const Buttons = styled.button`
+// export const Buttons = styled.button`
 //   display: inline-block;
 //   margin-bottom: 4rem;
 //   width: 50%;
@@ -12,7 +12,11 @@
 // `;
 
 const Button = ({ text, onclick }) => {
-	return <button onClick={onclick}>{text}</button>;
+  return (
+    <button className="btn" onClick={onclick}>
+      {text}
+    </button>
+  );
 };
-export default Button
+export default Button;
 // export default Buttons;

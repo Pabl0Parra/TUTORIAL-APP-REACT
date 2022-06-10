@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 export const Section = styled.div`
     border: 2px solid black;
@@ -9,19 +9,20 @@ export const Section = styled.div`
     flex-direction: column;
     justify-content: center;
     margin-bottom: 2rem;
-    background: rgba(255, 255, 255, .5);
+    background: transparent;
 	&.operative {
-		background: pink;
-        height: 3rem`
-    
-export const Buttons = styled.header`
-display: inline-block;
-margin-bottom: 4rem;
-width: 50%;
-height: 4rem;
-cursor: pointer;
-font-weight: 800;
-border-radius: 3px;
-padding: 12px 24px;
-`;  
-  
+		background: #f25ccc;
+        height: 3rem;
+        font-weight: 800;
+        transition: all .12s ease-in`;
+
+// export const Buttons = styled.button`
+//   display: inline-block;
+//   margin-bottom: 4rem;
+//   width: 50%;
+//   height: 4rem;
+//   cursor: pointer;
+//   font-weight: 800;
+//   border-radius: 3px;
+//   padding: 12px 24px;
+// `;
