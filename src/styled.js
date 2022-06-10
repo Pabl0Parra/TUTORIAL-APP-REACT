@@ -9,7 +9,7 @@ export const Section = styled.div`
     flex-direction: column;
     justify-content: center;
     margin-bottom: 2rem;
-    background: transparent;
+    background: white;
 	&.operative {
 		background: #f25ccc;
         height: 3rem;
@@ -25,4 +25,25 @@ export const Section = styled.div`
 //   font-weight: 800;
 //   border-radius: 3px;
 //   padding: 12px 24px;
+// `;
+
+// export const Main = styled.div`
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100vw;
+//   height: 100vh;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   flex-direction: column;
+
+//   h1 {
+//     text-align: center;
+//   }
+
+//   Button {
+//     padding: 1rem 2rem;
+//     font-size: 1.5rem;
+//   }
 // `;

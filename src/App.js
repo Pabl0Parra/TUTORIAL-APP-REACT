@@ -1,8 +1,9 @@
-import Scene from "./components/scenes/Scene";
-import Phrases from "./components/scenes/Phrases";
-import Button from "./components/Button";
 import { useState } from "react";
 
+import Phrases from "./components/scenes/Phrases";
+import Button from "./components/Button";
+import Scene from "./components/scenes/Scene";
+import WelcomeScreen from "./components/WelcomeScreen";
 function App() {
   // LOGIC
   const [active, setActive] = useState(0);
@@ -10,6 +11,7 @@ function App() {
   //RENDERING
   return (
     <div className="App">
+      <WelcomeScreen />
       <header>
         <Button
           text="PREVIOUS"
