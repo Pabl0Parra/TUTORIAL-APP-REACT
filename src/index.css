@@ -1,5 +1,4 @@
 body {
-  margin: 2%;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -12,18 +11,7 @@ code {
     monospace;
 }
 
-.scene-btn {
-  display: inline-block;
-  margin-bottom: 2rem;
-  width: 50%;
-  height: 4rem;
-  cursor: pointer;
-  font-weight: 800;
-  border-radius: 100px;
-  padding: 12px 24px;
-}
-
-.welcome-wrapper {
+/* .welcome-wrapper {
   position: absolute;
   top: 0;
   left: 0;
@@ -43,4 +31,4 @@ code {
 .welcome-btn {
   padding: 1rem 2rem;
   font-size: 1.5rem;
-}
+} */
