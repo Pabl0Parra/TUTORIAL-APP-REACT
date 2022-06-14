@@ -69,7 +69,7 @@ You must complete the following steps:
 
 The result must be:
 
-![screenshot](../tutorial/public/assets/nau-espacial.png)
+![screenshot](https://github.com/Pabl0Parra/TUTORIAL-APP-REACT/blob/solutions/public/assets/nau-espacial.png)
 
 #### :paw_prints: **Step 2**
 
@@ -92,7 +92,7 @@ To do this, you must perform the following tasks :
 
 The exercise should look like this:
 
-## ![](../tutorial/public/assets/history.png)
+## ![](https://github.com/Pabl0Parra/TUTORIAL-APP-REACT/blob/solutions/public/assets/history.png)
 
 #### :paw_prints: **Step 3**
 
@@ -106,7 +106,7 @@ It’s time to apply styles to our Scene component. You must model this componen
 
 We will show all the lines of the application, but we will highlight only one at a time, which will change as we press the forward or backward buttons:
 
-## ![](../tutorial/public/assets/history2.png)
+## ![](https://github.com/Pabl0Parra/TUTORIAL-APP-REACT/blob/solutions/public/assets/history2.png)
 
 ---
 ### **Level 2** :star2::star2:
@@ -134,4 +134,4 @@ Modify the JSON file and convert it to a JS file with an array of objects. Each 
 
     - img will be the property that will store the background image that will be displayed on the screen.
 
-![full tutorial](../tutorial/public/assets/history-complete.png)
+![full tutorial](https://github.com/Pabl0Parra/TUTORIAL-APP-REACT/blob/solutions/public/assets/history-complete.png)
