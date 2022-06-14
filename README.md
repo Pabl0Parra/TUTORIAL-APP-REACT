@@ -24,7 +24,7 @@ Through this project I have been able to learn the basics of React, create and i
 
 ---
 
-## :memo: **What would I still need to do**
+## :memo: **What do I still need to do**
 
 ~~1. Concentrate all styles under one js file through style-components~~
 
