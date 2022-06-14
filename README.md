@@ -10,7 +10,7 @@
 
 
 
-In this project I´m using React JS to develop a tutorial, in which with two buttons, new users can move forward and backward through the tips, modifying the help text and background image every time either button is clicked.
+In this project I´m using React JS to develop a tutorial in which, with two buttons, new users can move forward and backward through the tips, modifying the help text and background image every time either button is clicked.
 I will also implement a welcome screen with a button to begin the tutorial.
 Since I don´t yet have the proper documentation or an API, I will hardcore some example data to reproduce the desire output.
 
@@ -126,7 +126,7 @@ You have to be able to show the welcome screen, and once that variable changes, 
 
 #### :paw_prints: **Step 6**
 
-All you have to do is change the background image as the user changes the phrase .
+All you have to do is to change the background image as the user changes the phrase .
 
 Modify the JSON file and convert it to a JS file with an array of objects. Each object will have two properties: txt and img :
 
