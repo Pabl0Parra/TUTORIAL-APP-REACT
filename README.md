@@ -1,6 +1,6 @@
 # Project Preview
 
-![screen recording](../TUTORIAL-APP-REACT/public/assets/screen-recording.gif)
+![screen recording](https://github.com/Pabl0Parra/TUTORIAL-APP-REACT/blob/solutions/public/assets/screen-recording.gif)
 
 ## Getting Started with Create React App
 
