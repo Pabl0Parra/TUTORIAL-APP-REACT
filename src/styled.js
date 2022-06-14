@@ -29,7 +29,7 @@ export const Section = styled.div`
 		background: #ffc0cb;
         height: 3rem;
         font-weight: 800;
-        transition: all .8s ease`;
+        transition: all .12s ease`;
 
 export const StyledButtons = styled.button`
   display: inline-block;
