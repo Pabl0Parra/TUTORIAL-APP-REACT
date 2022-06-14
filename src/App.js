@@ -4,6 +4,7 @@ import Phrases from "./components/scenes/Phrases";
 import Button from "./components/Button";
 import Scene from "./components/scenes/Scene";
 import WelcomeScreen from "./components/WelcomeScreen";
+import { GlobalStyle } from "./styled";
 
 function App() {
   // LOGIC
@@ -19,6 +20,7 @@ function App() {
   return (
     <div>
       <div style={sceneBg}>
+        <GlobalStyle />
         <WelcomeScreen />
 
         <header>

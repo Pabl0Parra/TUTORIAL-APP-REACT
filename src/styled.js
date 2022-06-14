@@ -1,4 +1,20 @@
 import styled from "styled-components";
+import { createGlobalStyle } from "styled-components";
+
+export const GlobalStyle = createGlobalStyle`
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+`;
 
 export const Section = styled.div`
     border: 2px solid black;
@@ -11,10 +27,10 @@ export const Section = styled.div`
     margin-bottom: 2rem;
     background: transparent;
 	&.operative {
-		background: #f25ccc;
+		background: #ffc0cb;
         height: 3rem;
         font-weight: 800;
-        transition: all .12s ease-in`;
+        transition: all .8s ease`;
 
 export const StyledButtons = styled.button`
   display: inline-block;
