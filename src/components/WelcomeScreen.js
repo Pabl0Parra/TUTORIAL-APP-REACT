@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Main } from "../styled";
-// import { Main } from "../styled";
 import Button from "./Button";
 // variable saved in the state of the main App component so that I´m able to show the welcome screen
 const WelcomeScreen = () => {
