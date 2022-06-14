@@ -1,14 +1,14 @@
 # **Project Preview**
 
----
+
 
 ## ![screen recording](https://github.com/Pabl0Parra/TUTORIAL-APP-REACT/blob/solutions/public/assets/screen-recording.gif)
 
 ---
 
-## **Tech used in this project**
+## :wrench: **Tech used in this project**
 
----
+
 
 In this project I´m using React JS to develop a tutorial, in which with two buttons, new users can move forward and backward through the tips, modifying the help text and background image every time either button is clicked.
 I will also implement a welcome screen with a button to begin the tutorial.
@@ -16,15 +16,15 @@ Since I don´t yet have the proper documentation or an API, I will hardcore some
 
 ---
 
-## **What did I learn from this project**
+## :mortar_board: **What did I learn from this project**
 
----
+
 
 Through this project I have been able to learn the basics of React, create and implement my first reusable components, make use of props, how to work with styled-components, learn how to implement useState & how to use conditional rendering to display different screens.
 
 ---
 
-## **What would I still need to do**
+## :memo: **What would I still need to do**
 
 ~~1. Concentrate all styles under one js file through style-components~~
 
@@ -32,9 +32,10 @@ Through this project I have been able to learn the basics of React, create and i
 
 3. Make sure welcome screen renders by itself.
 
-## **Getting Started with this project**
-
 ---
+## :seedling: **Getting Started with this project**
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -42,15 +43,15 @@ Please, visit the following link for instructions on how to start it: [create-re
 
 ---
 
-## **Instructions**
+## :bookmark_tabs: **Instructions**
 
 ---
 
-### **_Level 1_** :star:
+### **_Level 1_** :star2:
 
----
 
-#### **Step 1**
+
+#### :paw_prints: **Step 1**
 
 In this first exercise, Iyou will create a component that will render a sentence, and you will import and use it in the main App component.
 
@@ -70,7 +71,7 @@ The result must be:
 
 ![screenshot](../tutorial/public/assets/nau-espacial.png)
 
-#### **Step 2**
+#### :paw_prints: **Step 2**
 
 n this exercise we will show all the sentences in the story.
 
@@ -93,7 +94,7 @@ The exercise should look like this:
 
 ## ![](../tutorial/public/assets/history.png)
 
-#### **Step 3**
+#### :paw_prints: **Step 3**
 
 It’s time to apply styles to our Scene component. You must model this component using styled-components:
 
@@ -101,28 +102,29 @@ It’s time to apply styles to our Scene component. You must model this componen
 
 ---
 
-#### **Step 4**
+#### :paw_prints: **Step 4**
 
 We will show all the lines of the application, but we will highlight only one at a time, which will change as we press the forward or backward buttons:
 
 ## ![](../tutorial/public/assets/history2.png)
 
-### **Level 2** :star::star:
+---
+### **Level 2** :star2::star2:
 
 ---
 
-#### **Step 5**
+#### :paw_prints: **Step 5**
 
 It would be useful to show the user an initial welcome screen , containing the project description and a start button. In this exercise you have to use conditional rendering.
 You have to be able to show the welcome screen, and once that variable changes, hide the welcome screen and show the screen with the history.
 
 ---
 
-### **Level 3** :star::star::star:
+### **Level 3** :star2::star2::star2:
 
 ---
 
-#### **Step 6**
+#### :paw_prints: **Step 6**
 
 All you have to do is change the background image as the user changes the phrase .
 
