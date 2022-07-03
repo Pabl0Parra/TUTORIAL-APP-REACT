@@ -1,71 +1,137 @@
-# Getting Started with Create React App
+# **Project Preview**
+
+
+
+## ![screen recording](https://github.com/Pabl0Parra/TUTORIAL-APP-REACT/blob/solutions/public/assets/screen-recording.gif)
+
+---
+
+## :wrench: **Tech used in this project**
+
+
+
+In this project I´m using React JS to develop a tutorial in which, with two buttons, new users can move forward and backward through the tips, modifying the help text and background image every time either button is clicked.
+I will also implement a welcome screen with a button to begin the tutorial.
+Since I don´t yet have the proper documentation or an API, I will hardcore some example data to reproduce the desire output.
+
+---
+
+## :mortar_board: **What did I learn from this project**
+
+
+
+Through this project I have been able to learn the basics of React, create and implement my first reusable components, make use of props, how to work with styled-components, learn how to implement useState & how to use conditional rendering to display different screens.
+
+---
+
+## :memo: **What do I still need to do**
+
+~~1. Concentrate all styles under one js file through style-components~~
+
+~~2. Get rid of unnecesary files & images~~
+
+3. Make sure welcome screen renders by itself.
+
+---
+## :seedling: **Getting Started with this project**
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Please, visit the following link for instructions on how to start it: [create-react-app](https://create-react-app.dev/)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## :bookmark_tabs: **Instructions**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### **_Level 1_** :star2:
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+#### :paw_prints: **Step 1**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+In this first exercise, Iyou will create a component that will render a sentence, and you will import and use it in the main App component.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+You must complete the following steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    1. Create the components folder
 
-### `npm run eject`
+    2. Create the scene folder inside the components folder.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    3. Inside the scene folder we will implement the first component. To do this you need to create the Scena.js file. This first component only needs to return the following string:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    "Our hero was floating in outer space when he spotted a spaceship in the distance"
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    4. We already have our first component created, but the phrase will not be displayed yet. For this we will use our brand new component Scene. In the return of the app component you must use the Scene component.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The result must be:
 
-## Learn More
+![screenshot](https://github.com/Pabl0Parra/TUTORIAL-APP-REACT/blob/solutions/public/assets/nau-espacial.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### :paw_prints: **Step 2**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+n this exercise we will show all the sentences in the story.
 
-### Code Splitting
+To do this, you must perform the following tasks :
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    1. We will read the data from a JSON or JS file, with the texts of the story in the App component:
 
-### Analyzing the Bundle Size
+        [
+        "Our hero was floating in outer space when he saw a spaceship in the distance."
+        "He was curious about the interior of the ship and began to inspect it. He came to a room with two doors."
+        "The hero decided to go through the door that took him home,"
+        "Meanwhile, other heroes weren't so lucky in their choice ..."
+        ]
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+    2. You must go through each of the texts in the story in the Scene component. (The scene component will render a single line of text).
 
-### Making a Progressive Web App
+    3. We will modify the Scene component to display all lines of text obtained from the parent App component using props.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+The exercise should look like this:
 
-### Advanced Configuration
+## ![](https://github.com/Pabl0Parra/TUTORIAL-APP-REACT/blob/solutions/public/assets/history.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+#### :paw_prints: **Step 3**
 
-### Deployment
+It’s time to apply styles to our Scene component. You must model this component using styled-components:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![](../tutorial/public/assets/full-history.png)
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# TUTORIAL-APP-REACT" 
+#### :paw_prints: **Step 4**
+
+We will show all the lines of the application, but we will highlight only one at a time, which will change as we press the forward or backward buttons:
+
+## ![](https://github.com/Pabl0Parra/TUTORIAL-APP-REACT/blob/solutions/public/assets/history2.png)
+
+---
+### **Level 2** :star2::star2:
+
+---
+
+#### :paw_prints: **Step 5**
+
+It would be useful to show the user an initial welcome screen , containing the project description and a start button. In this exercise you have to use conditional rendering.
+You have to be able to show the welcome screen, and once that variable changes, hide the welcome screen and show the screen with the history.
+
+---
+
+### **Level 3** :star2::star2::star2:
+
+---
+
+#### :paw_prints: **Step 6**
+
+All you have to do is to change the background image as the user changes the phrase .
+
+Modify the JSON file and convert it to a JS file with an array of objects. Each object will have two properties: txt and img :
+
+    - txt will be the property that will store the scene text.
+
+    - img will be the property that will store the background image that will be displayed on the screen.
+
+![full tutorial](https://github.com/Pabl0Parra/TUTORIAL-APP-REACT/blob/solutions/public/assets/history-complete.png)

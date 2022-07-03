@@ -1,23 +1,48 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+
+import Phrases from "./components/scenes/Phrases";
+import Button from "./components/Button";
+import Scene from "./components/scenes/Scene";
+import WelcomeScreen from "./components/WelcomeScreen";
+import { GlobalStyle } from "./styled";
 
 function App() {
+  // LOGIC
+  const [active, setActive] = useState(0);
+
+  const sceneBg = {
+    height: "100vh",
+    backgroundSize: "cover",
+    backgroundImage: "url(" + Phrases[active].img + ")",
+  };
+
+  //RENDERING
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div style={sceneBg}>
+        <GlobalStyle />
+        <WelcomeScreen />
+
+        <header>
+          <Button
+            text="PREVIOUS"
+            onclick={() =>
+              active === 0
+                ? setActive(Phrases.length - 1)
+                : setActive(active - 1)
+            }
+          />
+          <Button
+            text="NEXT"
+            onclick={() =>
+              Phrases.length - 1 === active
+                ? setActive(0)
+                : setActive(active + 1)
+            }
+          />
+        </header>
+        <Scene Phrases={Phrases} state={active} />
+      </div>
     </div>
   );
 }
